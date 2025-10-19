@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    font-weight: bold;
+    background-color: cornsilk;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.form-box {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: burlywood;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+input, button {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    background-color: cornsilk;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.result.underweight{color:#023E84;}
+.result.normal{color:#276221;}
+.result.overweight{color:#ff6f00;}
+.result.obese{color:#ff0000;}
+.result.invalid{color:#000000;}
